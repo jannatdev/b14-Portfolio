@@ -18,6 +18,12 @@ p{
     max-width: 1200px;
     margin: auto;
 }
+h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    line-height: 1.2em;
+}
 .common-button{
     background:#fd6e0a ;
     border: none;
@@ -296,3 +302,66 @@ footer{
     color: white;
     border: none;
 }
+#title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #181818;
+    line-height: 1.2em;
+    margin-bottom: 12px;
+}
+.resume-card h4{
+    font-size: 25px;
+    font-weight: 700;
+    color: #181818;
+    line-height: 1.2em;
+}
+.resume-card h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #181818;
+    line-height: 1.2em;
+}
+.resume-card h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #181818;
+    line-height: 1.2em;
+    margin-top: 8px;
+}
+.resume-card p{
+    font-size: 14px;
+    font-weight: 400;
+   color: #757575;
+    line-height: 1.75em;
+    width: 511px;
+    margin-top: 12px;
+}
+
+.resume-card{
+    padding: 20px;
+    background-color:#fff8f3 ;
+    border-radius: 10px;
+    box-shadow: 6px 6px 60px rgb(194, 194, 189);
+
+}
+.resume{
+    display: grid;
+    gap: 16px;
+}
+.resume-information{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.resume-parents h2{
+    text-align: center;
+    margin: 60px 0;
+
+}
+.resume-parents{
+    max-width: 1280px;
+    margin: auto;
+}
+
+
+
