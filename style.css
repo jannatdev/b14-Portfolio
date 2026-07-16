@@ -133,6 +133,10 @@ li a{
     display: flex;
     gap: 12px;
 }
+.hero-right{
+    margin-top: 10px;
+}
+/* About Section Start */
  .about{
     background-color: #fff8f3;
     margin-top: 60px;
