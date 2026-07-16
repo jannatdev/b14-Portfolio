@@ -44,7 +44,7 @@ header{
     display: flex;
     justify-content: space-around;
     background-image: url(./images/bg\ image.png);
-    height: 93vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
