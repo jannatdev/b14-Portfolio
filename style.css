@@ -40,13 +40,31 @@ h2{
 }
 
 /* nav start */
+header{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(./images/bg\ image.png);
+    height: 93vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
+.hero-section{
+    display: flex;
+}
+.hero-section-container{
+ display: grid;
+ gap: 20px;
+
+}
+
+
+    
 nav{
     display: flex;
-   justify-content:space-between;
-   align-items: center;
-   max-width: 1200px;
-    margin: auto;
+    justify-content: space-between;
+    align-items: center;
 }
 nav h2{
     font-size: 45px;
@@ -58,6 +76,7 @@ ul{
     list-style: none;
     gap: 36px;
     align-items: center;
+    margin-right: 80px;
 }
 li a{
     font-size: 16px;
@@ -70,17 +89,27 @@ li a{
 #mary{
     color: #fd6e0a;
 }
-/* hero-banner start */
+.hero-section{
+    display:flex;
+    flex-direction: row;
+    
+    
+}
+    
+    
+    
 
 .hero-banner{
-    display: flex;
-    margin-top: 40px;
-    justify-content: space-between;
-    align-items:center ;
+
+    display: flex;justify-content: space-between;
+    align-items: center;
+   margin-bottom: 120px;
     /* background-color: #fff8f3; */
 }
+
 .hero-left{
-    margin-left: 160px;
+    margin-left: -60px;
+    
 }
 
 .hero-left h5{
